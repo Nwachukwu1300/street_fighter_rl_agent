@@ -177,7 +177,7 @@ ent_coef = 0.01
 
 The trained model is hosted on **Hugging Face** due to file size constraints:
 
-### **[Download Model on Hugging Face →](https://huggingface.co/YOUR_USERNAME/sfiii-agent)**
+### **[Download Model on Hugging Face →](https://huggingface.co/mmesomaa/streetfighter_agent)**
 
 Replace `YOUR_USERNAME/sfiii-agent` with your actual Hugging Face repository URL.
 
