@@ -1,0 +1,110 @@
+# Large Model Files - Host on Hugging Face instead
+*.zip
+models_phase*/
+models_ultimate/
+models_ultimate_BACKUP/
+
+# Documentation - Keep only main README
+ADVANCED_TECHNIQUES.md
+INSTRUCTIONS.md
+MODEL_ANALYSIS.md
+QUICK_START_ELITE.md
+SUBMISSION_GUIDE.md
+TRAINING_COMPARISON.md
+WINNING_STRATEGIES.md
+HUGGINGFACE_UPLOAD_GUIDE.md
+UPLOAD_SUMMARY.md
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Training Logs (can be regenerated)
+logs/
+*.log
+*.csv
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Claude Code
+.claude/
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.localized
+
+# Windows System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Pytest
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment Variables
+.env
+.env.local
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+temp/
+tmp/
