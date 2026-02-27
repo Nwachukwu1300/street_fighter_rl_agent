@@ -2,6 +2,8 @@
 
 A reinforcement learning AI agent trained to play Street Fighter III: 3rd Strike using PPO (Proximal Policy Optimization) and curriculum learning. This project achieves competitive performance through a 3-phase training pipeline that progressively increases difficulty.
 
+Came top 10 in a global competition for training street fighter agents
+
 ## Project Overview
 
 This AI agent uses **curriculum learning** to master Street Fighter III by training across three difficulty phases:
