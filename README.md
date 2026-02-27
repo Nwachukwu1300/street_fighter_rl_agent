@@ -11,7 +11,6 @@ This AI agent uses **curriculum learning** to master Street Fighter III by train
 - **Phase 2**: Normal difficulty (Difficulty 2) - Skill development
 - **Phase 3**: Hard difficulty (Difficulty 3) - Expert performance
 
-**Final Performance**: 60%+ win rate against difficulty 3 opponents
 
 ## Key Features
 
@@ -167,21 +166,12 @@ ent_coef = 0.01
 - **No attack button combinations** (simplified)
 - **Step ratio**: 6 (action every 6 frames)
 
-## Performance Metrics
-
-| Phase | Difficulty | Training Steps | Win Rate | Avg Reward |
-|-------|-----------|----------------|----------|------------|
-| Phase 1 | 1 (Easy) | 2.0M | ~80% | ~3.5 |
-| Phase 2 | 2 (Normal) | 2.88M | ~70% | ~2.8 |
-| Phase 3 | 3 (Hard) | 5.67M | **60%+** | **2.14** |
-
 ## 🤗 Trained Model
 
 The trained model is hosted on **Hugging Face** due to file size constraints:
 
 ### **[Download Model on Hugging Face →](https://huggingface.co/mmesomaa/streetfighter_agent)**
 
-Replace `YOUR_USERNAME/sfiii-agent` with your actual Hugging Face repository URL.
 
 ### Quick Download
 
@@ -190,7 +180,7 @@ from huggingface_hub import hf_hub_download
 
 # Download the final model (20 MB)
 model_path = hf_hub_download(
-    repo_id="YOUR_USERNAME/sfiii-agent",
+    repo_id="https://huggingface.co/mmesomaa/streetfighter_agent",
     filename="model.zip",
     local_dir="./models"
 )
@@ -260,35 +250,3 @@ python diagnose.py
 - numpy
 - Docker (for DIAMBRA)
 
-## Citation
-
-If you use this project in your research or competition, please cite:
-
-```bibtex
-@misc{sfiii-ai-agent,
-  author = {Your Name},
-  title = {Street Fighter III AI Agent using PPO and Curriculum Learning},
-  year = {2024},
-  publisher = {GitHub},
-  url = {https://github.com/yourusername/sfiii-ai-agent}
-}
-```
-
-## License
-
-MIT License - See LICENSE file for details
-
-## Acknowledgments
-
-- **DIAMBRA Arena**: Fighting game RL framework
-- **Stable Baselines3**: PPO implementation
-- **OpenAI Gym**: Environment interface
-- Street Fighter III: 3rd Strike by Capcom
-
-## Contact
-
-For questions or issues, please open a GitHub issue or contact [your email].
-
----
-
-**Note**: This agent is for educational and competition purposes only. Street Fighter III is a trademark of Capcom.
